@@ -1,29 +1,7 @@
-# packaging
-pip>=9
-setuptools>=26
-twine
-wheel>=0.29
-
-# data science
-numpy
-pandas
-scikit-learn
-
-# tests/linter
-black
-coverage
-flake8
-pytest
-yapf
-
-# API
-gcsfs
-google-cloud-storage
-mlflow
-s3fs
-
-# utilities
-six>=1.14
-joblib
-memoized-property
-termcolor
+asgiref==3.4.1
+beautifulsoup4==4.10.0
+Django==4.0.1
+python-dotenv==0.19.2
+soupsieve==2.3.1
+sqlparse==0.4.2
+yapf==0.32.0
