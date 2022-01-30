@@ -25,7 +25,8 @@ body {
 
 .card__body ul, li {
   padding: 0;
-  list-style-type: none;
+  list-style-type: circle;
+
 }
 
 .social-links ul, li {

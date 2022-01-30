@@ -24,20 +24,24 @@
 </head>
 
 <body>
+
 	<main class="profile my-md">
 		<div class='container'>
 			<div class="layout">
 				<div class='column column--1of3'>
 					<div class='card card__body dev h-100 text-center'>
 						<br>
+						<h4>Hi, I'm Antonio</h4>
+						<br>
 						<img class="avatar avatar--xl" src="{% static 'images/profile-pic_square_400.jpg' %}" />
 						<br>
 						<br>
-						<h4>Hi, I'm Antonio</h4>
+						<h5>This is my Portfolio</h5>
 						<br>
 						<p>I love working with </p>
 						<p>Python & Django</p>
 						<br>
+						<p>antoniovmonge@gmail.com</p>
 						<!-- <p class="dev__location">Berlin, Germany</p> -->
 						<!-- SOCIAL LINKS -->
 						<ul class="dev__social">
@@ -55,10 +59,9 @@
 					</div>
 				</div>
 				<div class="column column--2of3">
-					<div class="card card__body dev">
+					<div class="card card__body">
 						<div class="devInfo">
-							<!-- <h5 class="devInfo__title">About Me</h5> -->
-							<p class="devInfo__about">
+							<div>
 								<p>Current position</p>
 								<hr>
 								<h5>Python Developer @ MINIMAL FASHION UK</h5>
@@ -66,16 +69,32 @@
 								<p>Start-Up | E-Commerce | Sustainable Fashion </p>
 								<br>
 								<!-- TASKS LIST -->
-								<p>MY RESPONSIBILITIES:</p>
+								<p>RESPONSIBILITIES:</p>
 								<br>
-									<p>- Building an <strong>E-Commerce</strong> platform (Django + React) </p>
-									<p>- To integrate all the <strong>APIs</strong> of the client shops (Shopify + Woocommerce)</p>
-									<p>- To create the REST-API with Django-Rest-Framework</p>
-									<p>- Managing the Cloud Data Storage in AWS</p>
-									<p>- DataBase design</p>
-									<p>- Data Analysis and Visualizations</p>
-									<p>- APIs Integration</p>
-							</p>
+								<ul>
+									<li>
+										<p>- To build an <strong>E-Commerce</strong> platform (Django + React) </p>
+									</li>
+									<li>
+										<p>- To integrate all the <strong>APIs</strong> of the client shops (Shopify + Woocommerce)</p>
+									</li>
+									<li>
+										<p>- To create the REST-API with Django-Rest-Framework</p>
+									</li>	
+									<li>
+										<p>- To manage the Cloud Data Storage in AWS</p>
+									</li>
+									<p></p>
+									<li>
+										<p>- Data Analysis and Visualizations</p>
+									</li>
+									<p></p>
+									<li>
+										<p>- DataBase design</p>
+									</li>
+									
+								</ul>
+							</div>
 						</div>
 					</div>
 
@@ -135,8 +154,8 @@
 				<!-- PROJECTS -->
 				<div class="devInfo">
 					<h3 class="devInfo__title">Projects</h3>
-					<p>Disclaimer: Apps could take around 10 seconds to open because they are hosted on Heroku using "free Dynos"</p>
-					<p>Once opened they work fine 😎</p>
+					<p>Disclaimer: Apps could take around 10 seconds to "wake up", they are hosted on Heroku using "free Dynos".</p>
+					<p>Once opened, they work fine. 😎</p>
 					<div class="grid grid--two">
 						
 						<!-- PROJECT 1 -->
@@ -150,13 +169,16 @@
 									<h3 class="project__title">E-Commerce Platform</h3>
 									<p class="project__info">
 									<p>Features:</p>
-									<p>- Login / Sign-In / Register</p>
-									<p>- Admin Authentication</p>
-									<p>- PayPal API integration</p>
-									<p>- Reviews System</p>
-									<p>- Admin Panel</p>
-									<p>- Search Bar to filter products</p>
-									<p>- User Profile with user orders history</p>
+									<br>
+									<ul>
+										<li><p>- Login / Sign-In / Register</p></li> 
+										<li><p>- Admin Authentication</p></li> 
+										<li><p>- PayPal API integration</p></li>
+										<li><p>- Reviews System</p></li> 
+										<li><p>- Admin Panel</p></li> 
+										<li><p>- Search Bar to filter products</p></li> 
+										<li><p>- User Profile with user orders history</p></li> 
+									</ul>
 									</p>
 									<br>
 									<div class="project__tags">
@@ -195,14 +217,17 @@
 								<div class="card__body">
 									<h3 class="project__title">Developers + Projects | Social WebSite</h3>
 									<p class="project__info">
-										<p>- User authentication (Login/Register/Logout)</p>
-										<p>- Automatic sending Email confirmation / Password recovery</p>
-										<p>- Search bar (by developer name or project title)</p>
-										<p>- Private messaging</p>
-										<p>- Vote system (Positive or Negative) + Feedback by Project</p>
-										<p>- Admin panel</p>
-										<p>- User Profile View for other users with all social links and projects</p>
+										<p>Features:</p>
 										<br>
+										<ul>
+											<li><p>- User authentication (Login/Register/Logout)</p></li>
+											<li><p>- Automatic sending Email confirmation / Password recovery</p></li>
+											<li><p>- Search bar (by developer name or project title)</p></li>
+											<li><p>- Private messaging</p></li>
+											<li><p>- Vote system (Positive or Negative) + Feedback by Project</p></li>
+											<li><p>- Admin panel</p></li>
+											<li><p>- User Profile View for other users with all social links and projects</p></li>
+										</ul>
 									</p>
 									<br>
 									<div class="project__tags">
@@ -243,16 +268,18 @@
 								<div class="card__body">
 									<h3 class="project__title">Social Net - BlogPost Website</h3>
 									<p class="project__info">
-									<p>Complete Functional Social - Blog Website using Flask</p>
-									<p>- Login / Sign-In</p>
-									<p>- Follow / Unfollow Users</p>
-									<p>- Reset Password Email</p>
-									<p>- Private Messages</p>
-									<p>- Pagination</p>
-									<p>- Personalized Feed based on followed users</p>
-									<p>- Profile Editing</p>
-									<p>- Post Edit / Delete</p>
-									
+										<p>Complete Functional Social - Blog Website using Flask</p>
+										<br>
+										<ul>
+											<li><p>- Login / Sign-In</p></li>
+											<li><p>- Follow / Unfollow Users</p></li>
+											<li><p>- Reset Password Email</p></li>
+											<li><p>- Private Messages</p></li>
+											<li><p>- Pagination</p></li>
+											<li><p>- Personalized Feed based on followed users</p></li>
+											<li><p>- Profile Editing</p></li>
+											<li><p>- Post Edit / Delete</p></li>
+										</ul>
 									</p>
 									<br>
 									<div class="project__tags">
@@ -287,13 +314,17 @@
 									<h3 class="project__title">E-Commerce Analytics + Dashboarding</h3>
 									<p class="project__info">
 										<p>Data Analysis Project</p>
-										<p>- DataBase Design</p> 
-										<p>- From many .csv files to full connected DataBase using Pandas</p>
-										<p>- Data Exploration using Jupyter Notebooks</p>
-										<p>- Data Visualization (Matplotlib, Seaborn, Plotly)</p>
-										<p>- Decision Making</p>
-										<p>- Interactive Dashboards with Plotly </p>
-										<p>- Deployed using Plotly-Dash</p>
+										<br>
+										<ul>
+											<li><p>- DataBase Design</p></li>
+											<li><p>- From many .csv files to full connected DataBase using Pandas</p></li>
+											<li><p>- Data Exploration using Jupyter Notebooks</p></li>
+											<li><p>- Data Visualization (Matplotlib, Seaborn, Plotly)</p></li>
+											<li><p>- Decision Making</p></li>
+											<li><p>- Interactive Dashboards with Plotly </p></li>
+											<li><p>- Deployed using Plotly-Dash</p></li>
+										</ul>
+
 									</p>
 									<br>
 									<div class="project__tags">
@@ -336,8 +367,8 @@
 								</a>
 								<div class="card__body">
 									<h3 class="project__title">PsyCovid - Data Science Project</h3>
-									<h6>#Machine Learning</h6>
-									<h6>#Data Analysis</h6>
+									<br>
+									<h6>Machine Learning + Data Analysis</h6>
 									<p class="project__info">
 									<p>Analysis and Predictions over <strong>Human Emotions</strong> under <strong>Outbreak Situation</strong> based on personality traits and demographic variables.</p>
 									<br>
@@ -345,7 +376,9 @@
 									<p>- Data Analysis (Pandas, Numpy, Matplotlib, Seaborn, Plotly)</p>
 									<p>- Feature Encoding and Pipeline Design</p>
 									<p>- Machine Learning (SciKit-Learn)</p>
+									<br>
 									<p>Deployment:</p>
+									<br>
 									<p>- First Prototype Deployment with Streamlit</p>
 									<p>- Refactored code for production Dash by Plotly Web Application</p>
 									<p>- Designed User-friendly Interactive DataVisualization and Simulations</p>
@@ -404,16 +437,8 @@
 		</div>
 	</main>
 
-	<!-- jQuery and Bootstrap Bundle (includes Popper) -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-		crossorigin="anonymous"></script> -->
-
-	<script src="{% static 'uikit/app.js' %}"></script>
-	<script src="{% static 'js/main.js' %}"></script>
 </body>
+<script src="{% static 'uikit/app.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
 
 </html>
